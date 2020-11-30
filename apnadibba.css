@@ -1,0 +1,344 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+
+body{
+    margin: 0px;
+   padding: 0px;
+   background-color: #f1f1f1;
+}
+
+
+.container1{
+    display: flex;
+ background-color: black;
+ width: 100%;
+}
+
+.navbar1{
+    display: flex;
+    justify-content: center;
+  height: 77px;
+  /* width: 100%; */
+}
+
+.nav1{
+    margin-left: 70px;
+    padding-top: 15px;
+    font-size: 28px;
+    text-decoration: none;
+    color: wheat;
+     transition: 1s;
+}
+.nav1:hover{
+color: white;
+text-decoration: underline;
+font-size: 30px;
+padding: 10px;
+}
+a:hover {
+    color: wheat;
+    text-decoration: underline;
+}
+.nav1 a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.logo{    
+     height: 69px;
+    width: 90px;
+    padding: 0px;
+}
+#firstimage {
+    padding-top: 29px;
+    padding-right: 10px;
+    height: 793px;
+    margin-top: 42px;
+}
+.whyUs{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 33px;
+    text-align: center;
+}
+.welcome{
+    text-align: center;
+    font-family:  'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 30px;
+    text-decoration: underline;
+}
+/* h2,h4{
+    font-family:  'Roboto Slab', serif;
+    color: rgb(242 63 20) ;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+} */
+h2{
+    font-family:  'Roboto Slab', serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 20px;
+}
+h2:hover{
+    font-size: 55px;
+    transition: 1s;
+}
+
+#description{
+    text-align: center;
+    font-weight: bold;
+    color: #00000087;
+}
+#chef{
+    
+    height: 150px;
+    width: 250px;
+    /* padding-left: 40px; */
+    text-align: center;
+}
+#thali {
+    height: 250px;
+    width: 250px;
+    /* padding-left: 40px; */
+    text-align: center;
+    margin-top: -31px;
+}
+#chefdescription{
+text-align: center;
+font-weight: bold;
+}
+#thalidescription{
+    text-align: center;
+    font-weight: bold;
+    margin-top: -50px;
+    margin-bottom: 30px;
+}
+#delivery{
+    height: 150px;
+    width: 250px;
+    /* padding-left: 40px; */
+    text-align: center;
+}
+
+#deliverydescription{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 26px;
+    margin-right: 38%;
+}
+.quoteLine1{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    box-shadow: 47 32 black;
+    color: black;
+    font-size: 21px;
+    margin-top: 27px;
+    font-family: ui-rounded;
+    text-decoration: underline;
+}
+.quoteLine2{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    box-shadow: 47 32 black;
+    color: black;
+    font-size: 21px;
+    margin-top: -18px;
+    font-family: ui-rounded;
+    text-decoration: underline;
+}
+.quoteLine3{text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    box-shadow: 47 32 black;
+    color: black;
+    font-size: 21px;
+    margin-top: -18px;
+    font-family: ui-rounded;
+    text-decoration: underline;
+}
+.quoteWriter{
+    margin-left: 62%;
+    font-weight: bold;
+    font-style: italic;
+    box-shadow: 47 32 black;
+    color: black;
+    font-size: 21px;
+    margin-top: -18px;
+    font-family: ui-rounded;
+}
+ 
+.whyHomemade{
+    grid-column-gap: 10px;
+    grid-template-columns: auto auto auto;
+    /* background-color: #2196F3; */
+        padding: 10px;
+        border-radius: 10px;   
+        margin-top: 26px;
+        margin-bottom: 40px;
+}
+
+.orderNow{
+    text-align: center;
+    margin-top: 39px;
+    border-radius: 5px;
+    margin-bottom: 14px;
+}
+
+.order1{
+    padding: 12px 25px;
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: black;
+    z-index: 1;
+    outline: none;
+    transition: all .5s
+}
+.orderNow1{
+    text-align: center;
+    margin-top: 39px;
+    border-radius: 5px;
+    margin-bottom: 14px;
+}
+
+.order{
+    padding: 12px 25px;
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: black;
+    z-index: 1;
+    outline: none;
+    transition: all .5s
+}
+  
+  .whyHomemade1{
+    background-color: rgba(255, 255, 255, 0.8);
+    /* padding: 20px; */
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive;
+    border-radius: 41px;
+  }
+  .whyHomemadeImage{
+    height: 179px;
+    width: 257px;
+  }
+.lappyLine1,.lappyLine2{
+    font-weight: 900;
+     text-align: center;
+}
+.phoneLine1,.phoneLine2{
+    display: none;
+}
+@media screen and (max-width: 1300px){
+   #thali{
+      
+    
+    height: 243px;
+    width: 302px;
+    padding-left: 40px;
+    text-align: center; 
+   }
+  
+   .nav1{
+    font-size: 17px;
+    margin: 8px;
+   }
+   #firstimage{    
+    width: 100%;
+    margin-right: -6px;
+    padding-top: 0px;
+    height: 416px;
+    margin-top: 11px;
+    margin-bottom: 22px;
+}
+
+#deliverydescription {
+    text-align: center;
+    display: table-cell;
+}
+    /* margin-right: 38%; */
+ 
+.phoneLine1,.phoneLine2{
+    display: block;
+    font-weight: 900;
+    text-align: center;
+}
+.lappyLine1,.lappyLine2{
+    display: none;
+}
+
+.quoteWriter{
+    margin-left: 52%;
+}
+ h2{
+    font-size: 38px;
+ }
+ .whyHomemadeImage {
+    height: 100%;
+    width: 100%;
+}
+.quoteLine1,.quoteLine2,.quoteLine3{
+    font-size: 14px;
+}
+.welcome{
+    font-size: 25px;
+    margin-bottom: 13px;
+}
+}
+
+
+  
+@media screen and (min-width: 1300px){
+    #phonesmall{
+        display: none;
+    }   
+   .whyHomemade{
+       display: flex;
+   }
+    /* #details{
+        display: none;
+      }
+        */
+}
+
+
+#details{
+    background-image: url('back.jpg');
+    opacity: 0.89;
+
+    height: 400px;
+    width: 100%;
+    background-color: black;
+}
+h3,h4,h5{
+    font-family:  'Roboto Slab', serif;
+    color: #fcf8dd;
+    font-weight: bold;  
+}
+#aboutus,#contactus,#aboutus1,#contactus1{
+    color: #f0ff00;
+    font-weight: bold;
+}
+#about{
+    margin-left: 10px;
+}
+#contact{
+    margin-left: 10px;
+
+}
+#follow{
+    
+    margin-left: 10px;
+}
+
